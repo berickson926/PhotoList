@@ -5,6 +5,7 @@ import com.badlogic.gdx.Input;
 import com.badlogic.gdx.InputProcessor;
 import com.enplug.apps.test.AppLoader;
 import com.enplug.apps.test.TestBase;
+import com.enplug.apps.test.TestServiceProviderFactory;
 import com.enplug.player.hosting.launcher.AppDefinition;
 import com.enplug.player.hosting.launcher.AppInstance;
 import com.enplug.player.hosting.launcher.AppLauncher;
@@ -29,11 +30,11 @@ public class PhotoListSetup extends TestBase implements InputProcessor
     public void setup()
     {
         _schedule = new AppSchedule();
-
-        AppDefinition photoListApp = createApp();
+        AppDefinition photoListApp = createPhotoListApp();
         _schedule.getApps().add(photoListApp);
-
         _appLoader = new AppLoader(photoListApp, _bus);
+
+        _providerFactory = new TestServiceProviderFactory(_downloader, _videoPlayer, _social, _notifications, _adProvider, _bus, _log);
 
         _launcher = new AppLauncher(Platform.Desktop,
                 _gameHost,
@@ -59,21 +60,20 @@ public class PhotoListSetup extends TestBase implements InputProcessor
         _gameHost.run();
     }
 
-    @Override
-    public AppDefinition createApp()
+    public AppDefinition createPhotoListApp()
     {
         List<SocialFeedDefinition> feeds = new ArrayList<SocialFeedDefinition>();
         SocialFeedDefinition instagramFeed = new SocialFeedDefinition("InstagramFeed", SocialNetwork.Instagram);
         feeds.add(instagramFeed);
 
-        AppDefinition app = createAppDefinition("NoshlistAppId", feeds);
+        AppDefinition photoListDefinition = createAppDefinition("PhotoListAppId", feeds);
 
-        AppInstance instance = new AppInstance();
-        HostedGame photoList = new PhotoList();
-        instance.setApp(photoList);
-        app.setInstance(instance);
+        AppInstance photoListInstance = new AppInstance();
+        HostedGame photoListGame = new PhotoList();
+        photoListInstance.setApp(photoListGame);
+        photoListDefinition.setInstance(photoListInstance);
 
-        return app;
+        return photoListDefinition;
     }
 
     @Override
@@ -89,7 +89,6 @@ public class PhotoListSetup extends TestBase implements InputProcessor
         {
             _log.debug("Debugging Input: Triggering impression event.");
             _launcher.onImpression(new ImpressionEvent());
-
         }
 
         return true;
