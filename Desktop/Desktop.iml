@@ -13,6 +13,9 @@
     <orderEntry type="library" name="gdx-natives" level="project" />
     <orderEntry type="module" module-name="Android" />
     <orderEntry type="module" module-name="Main" />
+    <orderEntry type="library" name="TestFramework" level="project" />
+    <orderEntry type="library" name="square-otto-1.3.2" level="project" />
+    <orderEntry type="library" name="EnplugUtilities" level="project" />
   </component>
 </module>
 

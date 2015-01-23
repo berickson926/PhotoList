@@ -13,6 +13,8 @@
     <orderEntry type="library" exported="" name="Sdk" level="project" />
     <orderEntry type="library" exported="" name="tween-engine-api-sources" level="project" />
     <orderEntry type="library" exported="" name="tween-engine-api" level="project" />
+    <orderEntry type="library" exported="" name="gdx-freetype-natives" level="project" />
+    <orderEntry type="library" exported="" name="gdx-freetype" level="project" />
   </component>
 </module>
 

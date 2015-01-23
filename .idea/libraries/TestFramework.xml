@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="TestFramework">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Desktop/libs/TestFramework.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/Desktop/libs/TestFramework.jar!/generated" />
+    </SOURCES>
+  </library>
+</component>
