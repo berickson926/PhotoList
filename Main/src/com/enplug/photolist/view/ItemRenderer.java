@@ -40,4 +40,9 @@ public class ItemRenderer
     {
         _layout = layout;
     }
+
+    public void dispose()
+    {
+
+    }
 }

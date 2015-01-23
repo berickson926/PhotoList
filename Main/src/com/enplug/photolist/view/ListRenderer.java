@@ -40,4 +40,9 @@ public class ListRenderer
     {
         _layout = layout;
     }
+
+    public void dispose()
+    {
+
+    }
 }
