@@ -1,4 +1,4 @@
-package com.enplug.photolist;
+package com.enplug.photolist.TestFramework;
 
 import com.badlogic.gdx.backends.lwjgl.LwjglApplication;
 import com.badlogic.gdx.backends.lwjgl.LwjglApplicationConfiguration;

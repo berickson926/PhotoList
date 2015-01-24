@@ -1,4 +1,4 @@
-package com.enplug.photolist;
+package com.enplug.photolist.TestFramework;
 
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.Input;
@@ -6,6 +6,7 @@ import com.badlogic.gdx.InputProcessor;
 import com.enplug.apps.test.AppLoader;
 import com.enplug.apps.test.TestBase;
 import com.enplug.apps.test.TestServiceProviderFactory;
+import com.enplug.photolist.PhotoList;
 import com.enplug.player.hosting.launcher.AppDefinition;
 import com.enplug.player.hosting.launcher.AppInstance;
 import com.enplug.player.hosting.launcher.AppLauncher;
