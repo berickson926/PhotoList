@@ -10,13 +10,26 @@ import com.enplug.sdk.model.social.instagram.InstagramItem;
  */
 public class World
 {
+    private PhotoListState _photoListState;
+
+    private final ObserveableCollection<InstagramItem> _posts;
     private int _highlightedPost;
-    private ObserveableCollection<InstagramItem> _posts;
 
     public World()
     {
+        _photoListState = PhotoListState.NotReady;
         _highlightedPost = -1;
         _posts = new ObserveableCollection<InstagramItem>();
+    }
+
+    public void setPhotoListState(PhotoListState state)
+    {
+        _photoListState = state;
+    }
+
+    public PhotoListState getPhotoListState()
+    {
+        return _photoListState;
     }
 
     public void setHighlightedPost(int highlight)
