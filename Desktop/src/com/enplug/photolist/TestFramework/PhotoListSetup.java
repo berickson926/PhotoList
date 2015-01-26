@@ -25,17 +25,22 @@ import java.util.List;
  * Copyright (c) 2014 Enplug, Inc. All rights reserved.
  *
  */
-public class PhotoListSetup extends TestBase implements InputProcessor
+public class PhotoListSetup extends TestBase
 {
+    private InputProcessor _photoListInputProcessor;
+    private SocialProvider _socialProvider;
+
     @Override
     public void setup()
     {
+        _socialProvider = new SocialProvider();
+
         _schedule = new AppSchedule();
         AppDefinition photoListApp = createPhotoListApp();
         _schedule.getApps().add(photoListApp);
         _appLoader = new AppLoader(photoListApp, _bus);
 
-        _providerFactory = new TestServiceProviderFactory(_downloader, _videoPlayer, _social, _notifications, _adProvider, _bus, _log);
+        _providerFactory = new TestServiceProviderFactory(_downloader, _videoPlayer, _socialProvider, _notifications, _adProvider, _bus, _log);
 
         _launcher = new AppLauncher(Platform.Desktop,
                 _gameHost,
@@ -54,6 +59,8 @@ public class PhotoListSetup extends TestBase implements InputProcessor
                 _log);
 
         _launcher.initialize(/*is landscape*/ false, /*language*/ "English");
+
+        _photoListInputProcessor = new InstagramInputProcessor(_launcher, _socialProvider);
 
         _bus.register(_launcher);
         _bus.register(_callToActionService);
@@ -80,60 +87,6 @@ public class PhotoListSetup extends TestBase implements InputProcessor
     @Override
     public void registerTestInputProcessor()
     {
-        Gdx.input.setInputProcessor(this);
-    }
-
-    @Override
-    public boolean keyDown(int key)
-    {
-        if (key == Input.Keys.I)
-        {
-            _log.debug("Debugging Input: Triggering impression event.");
-            _launcher.onImpression(new ImpressionEvent());
-        }
-
-        return true;
-    }
-
-    @Override
-    public boolean keyUp(int i)
-    {
-        return false;
-    }
-
-    @Override
-    public boolean keyTyped(char c)
-    {
-        return false;
-    }
-
-    @Override
-    public boolean touchDown(int i, int i2, int i3, int i4)
-    {
-        return false;
-    }
-
-    @Override
-    public boolean touchUp(int i, int i2, int i3, int i4)
-    {
-        return false;
-    }
-
-    @Override
-    public boolean touchDragged(int i, int i2, int i3)
-    {
-        return false;
-    }
-
-    @Override
-    public boolean mouseMoved(int i, int i2)
-    {
-        return false;
-    }
-
-    @Override
-    public boolean scrolled(int i)
-    {
-        return false;
+        Gdx.input.setInputProcessor(_photoListInputProcessor);
     }
 }

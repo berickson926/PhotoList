@@ -22,7 +22,6 @@ public class InstagramInputProcessor implements InputProcessor
     {
         _launcher = launcher;
         _socialProvider = socialProvider;
-
         _itemFactory = new InstagramItemFactory();
     }
 

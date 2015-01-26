@@ -44,7 +44,7 @@ public class SocialProvider implements ISocialProvider
     {
         if((_listener != null) && (_feedId != null))
         {
-        _listener.onUpdateItem(_feedId, updateItem);
+            _listener.onUpdateItem(_feedId, updateItem);
         }
     }
 
