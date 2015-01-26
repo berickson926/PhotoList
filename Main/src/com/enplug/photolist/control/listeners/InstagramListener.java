@@ -10,7 +10,9 @@ import com.enplug.sdk.model.ObserveableCollection;
 import com.enplug.sdk.model.social.SocialItem;
 import com.enplug.sdk.model.social.instagram.InstagramItem;
 
+import java.util.ArrayList;
 import java.util.Collection;
+import java.util.Iterator;
 import java.util.List;
 
 /**
@@ -54,6 +56,9 @@ public class InstagramListener implements ISocialItemListener
         _log.debug("Received social interaction to update.");
 
         ObserveableCollection<InstagramItem> instagramPosts = _world.getPosts();
+
+
+        ////////////////////////////////////////////////////////////////////////////////
         List<InstagramItem> items = (List<InstagramItem>) instagramPosts.getItems();
 
         if(items.contains((InstagramItem)socialItem))
@@ -72,15 +77,22 @@ public class InstagramListener implements ISocialItemListener
 
         ObserveableCollection<InstagramItem> instagramPosts = _world.getPosts();
         Collection<InstagramItem> items = instagramPosts.getItems();
+        Collection<InstagramItem> itemsToDelete = new ArrayList<InstagramItem>();
 
-        for(InstagramItem item : items)
+        for (InstagramItem nextItem : items)
         {
-            if(item.getId().equalsIgnoreCase(itemId))
+            if (nextItem.getId().equalsIgnoreCase(itemId))
             {
-                _log.debug("Match found. Deleting from list.");
-                instagramPosts.remove(item);
-                readyCheck();
+                _log.debug("Match found to delete.");
+                itemsToDelete.add(nextItem);
             }
+        }
+
+        for(InstagramItem deleteItem : itemsToDelete)
+        {
+            _log.verbose("Deleting : " + deleteItem);
+            instagramPosts.remove(deleteItem);
+            readyCheck();
         }
     }
 
@@ -101,7 +113,7 @@ public class InstagramListener implements ISocialItemListener
 
         if((postCount <= 0) && (_world.getPhotoListState() == PhotoListState.Ready))
         {
-            _appStatusListener.onStateChanged(AppState.RoundFinished);
+            _appStatusListener.onStateChanged(AppState.Error);
         }
     }
 }

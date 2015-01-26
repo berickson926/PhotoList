@@ -34,3 +34,6 @@ out/*
 *.class
 *.apk
 .idea/workspace.xml
+*.apk
+*.apk
+*.class
