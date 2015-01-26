@@ -1,5 +1,6 @@
 package com.enplug.photolist.view.layout;
 
+import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.math.Rectangle;
 import com.badlogic.gdx.math.Vector2;
 
@@ -10,6 +11,10 @@ import com.badlogic.gdx.math.Vector2;
  */
 public class Layout
 {
+    public Color _listBackgroundColor;
+    public Color _listHighlightColor;
+    public Color _listAlternateColor;
+
     public Vector2 _screenSize;
 
     public Vector2 _itemImagePos;
@@ -17,4 +22,5 @@ public class Layout
     public Vector2 _itemMessagePos;
 
     public Rectangle _listDimensions;
+    public float _listRowHeight;
 }

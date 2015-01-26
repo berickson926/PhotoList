@@ -1,5 +1,6 @@
 package com.enplug.photolist.view.layout;
 
+import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.math.Rectangle;
 import com.badlogic.gdx.math.Vector2;
 
@@ -25,6 +26,12 @@ public final class LayoutFactory
 
         layout._screenSize = new Vector2(screenWidth, screenHeight);
 
+        layout._listBackgroundColor = new Color(0.4f, 0.4f, 0.4f, 1.0f);
+        layout._listAlternateColor = new Color(0.7f, 0.7f, 0.7f, 1.0f);
+        layout._listHighlightColor = new Color(0.0f, 0.5f, 0.5f, 1.0f);
+
+        layout._listRowHeight = 45.0f;
+
         return layout;
     }
 
@@ -42,7 +49,7 @@ public final class LayoutFactory
         layout._itemAvatarPos = new Vector2(300.0f * _scale.x, 1400.0f * _scale.y);
         layout._itemMessagePos = new Vector2(450.0f * _scale.x, 1400.0f * _scale.y);
 
-        layout._listDimensions = new Rectangle(20.0f * _scale.x, 350.0f * _scale.y, 500.0f * _scale.x, 500.0f * _scale.y);
+        layout._listDimensions = new Rectangle(20.0f * _scale.x, 20.0f * _scale.y, 1200.0f * _scale.x, 1040.0f * _scale.y);
 
         return layout;
     }
@@ -55,7 +62,7 @@ public final class LayoutFactory
         layout._itemAvatarPos = new Vector2(1400.0f * _scale.x, 300.0f * _scale.y);
         layout._itemMessagePos = new Vector2(1400.0f * _scale.x, 450.0f * _scale.y);
 
-        layout._listDimensions = new Rectangle(350.0f * _scale.x, 20.0f * _scale.y, 500.0f * _scale.x, 500.0f * _scale.y);
+        layout._listDimensions = new Rectangle(20.0f * _scale.x, 20.0f * _scale.y, 1040.0f * _scale.x, 1200.0f * _scale.y);
 
         return layout;
     }
