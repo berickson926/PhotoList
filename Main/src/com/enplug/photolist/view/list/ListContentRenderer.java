@@ -1,7 +1,9 @@
 package com.enplug.photolist.view.list;
 
 import com.badlogic.gdx.assets.loaders.FileHandleResolver;
+import com.enplug.photolist.view.layout.Layout;
 import com.enplug.sdk.interfaces.IFontGenerator;
+import com.enplug.sdk.model.social.instagram.InstagramItem;
 import com.enplug.sdk.view.list.ContentRenderer;
 import com.enplug.sdk.view.list.IDrawable;
 
@@ -11,16 +13,19 @@ import com.enplug.sdk.view.list.IDrawable;
  * Time: 1:39 PM
  * Copyright (c) 2012 Enplug, Inc. All rights reserved.
  */
-public class ListContentRenderer extends ContentRenderer<ListRow>
+public class ListContentRenderer extends ContentRenderer<InstagramItem>
 {
+    private Layout _layout;
 
     protected ListContentRenderer(IFontGenerator fontGenerator, FileHandleResolver assetResolver)
     {
         super(fontGenerator, assetResolver);
+
+
     }
 
     @Override
-    public IDrawable renderItem(ListRow listRow)
+    public IDrawable renderItem(InstagramItem listRow)
     {
         return null;
     }
