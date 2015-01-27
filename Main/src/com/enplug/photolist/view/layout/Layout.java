@@ -23,4 +23,10 @@ public class Layout
 
     public Rectangle _listDimensions;
     public float _listRowHeight;
+
+    public float _rowAvatarPosX;
+    public float _rowAvatarWidth;
+
+    public float _rowMessagePosX;
+    public float _rowMessageWidth;
 }

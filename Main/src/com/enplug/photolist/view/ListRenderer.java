@@ -47,46 +47,35 @@ public class ListRenderer
 
     public void resize(Layout layout)
     {
+        _log.debug("Resizing listbox");
         _layout = layout;
 
-        if(_world.getPosts() != null)
-        {
-            _world.getPosts().removeObserver(_list);
-        }
-
-        _list.dispose();
-
-        _list = null;
+        dispose();
 
         initializeListBox();
     }
 
     public void dispose()
     {
+        _log.debug("Disposing listbox resources.");
+        if(_world.getPosts() != null)
+        {
+            _world.getPosts().removeObserver(_list);
+        }
 
+        if(_list != null)
+        {
+            _list.dispose();
+            _list = null;
+        }
     }
 
     private void initializeListBox()
     {
-        initializeContentRenderers();
-
         _list = new ListBox(new DefaultContentRenderer(_fontGenerator, _assetResolver));
-        //_list = new ListBox(_listContentRenderer, _footerRenderer);
         initializeListSettings();
 
         _list.setItems(_world.getPosts());
-    }
-
-    private void initializeContentRenderers()
-    {
-//        VenueInfo venueInfo = _world.getVenueInfo();
-//        boolean showPartyWaitTime = venueInfo.showPartyWait();
-//
-//        _listContentRenderer = new ListContentRenderer(showPartyWaitTime, _fontGenerator, _assetResolver, _localizer);
-//        _listContentRenderer.setContentAlignment(ContentItemAlignment.CENTERED_VERTICAL);
-//
-//        _footerRenderer = new FooterRenderer(_layout, _fontGenerator, _assetResolver, _localizer);
-//        _footerRenderer.setContentAlignment(ContentItemAlignment.CENTERED);
     }
 
     private void initializeListSettings()
@@ -104,15 +93,5 @@ public class ListRenderer
         _list.setItemStyle(itemStyle);
         _list.setItemHeight(_layout._listRowHeight);
         _list.setMargins(0.0f);
-
-        _list.setSelectedItem(_world.getHighlightedPost());
-//        if(_layout.IS_LANDSCAPE)
-//        {
-//            _list.setColumnQty(2);
-//        }
-//        else
-//        {
-//            _list.setColumnQty(1);
-//        }
     }
 }

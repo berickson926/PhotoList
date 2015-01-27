@@ -30,7 +30,13 @@ public final class LayoutFactory
         layout._listAlternateColor = new Color(0.7f, 0.7f, 0.7f, 1.0f);
         layout._listHighlightColor = new Color(0.0f, 0.5f, 0.5f, 1.0f);
 
-        layout._listRowHeight = 45.0f;
+        layout._listRowHeight = 148.0f * _scale.y;
+
+        layout._rowAvatarPosX = 10.0f;
+        layout._rowAvatarWidth = 30.0f;
+
+        layout._rowMessagePosX = 50.0f;
+        layout._rowMessageWidth = 300.0f;
 
         return layout;
     }
