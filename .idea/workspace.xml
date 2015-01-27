@@ -55,308 +55,6 @@
       </breakpoint>
     </breakpoint_any>
     <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
-    <line_breakpoints>
-      <breakpoint url="file://$PROJECT_DIR$/Main/src/com/enplug/photolist/control/listeners/InstagramListener.java" line="61" class="com.enplug.photolist.control.listeners.InstagramListener" package="com.enplug.photolist.control.listeners">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/Main/src/com/enplug/photolist/control/listeners/InstagramListener.java" line="57" class="com.enplug.photolist.control.listeners.InstagramListener" package="com.enplug.photolist.control.listeners">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/Main/src/com/enplug/photolist/control/listeners/InstagramListener.java" line="55" class="com.enplug.photolist.control.listeners.InstagramListener" package="com.enplug.photolist.control.listeners">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/Main/src/com/enplug/photolist/control/listeners/InstagramListener.java" line="63" class="com.enplug.photolist.control.listeners.InstagramListener" package="com.enplug.photolist.control.listeners">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/Main/src/com/enplug/photolist/control/listeners/InstagramListener.java" line="64" class="com.enplug.photolist.control.listeners.InstagramListener" package="com.enplug.photolist.control.listeners">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/Main/src/com/enplug/photolist/control/listeners/InstagramListener.java" line="65" class="com.enplug.photolist.control.listeners.InstagramListener" package="com.enplug.photolist.control.listeners">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/Main/src/com/enplug/photolist/control/listeners/InstagramListener.java" line="67" class="com.enplug.photolist.control.listeners.InstagramListener" package="com.enplug.photolist.control.listeners">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/Main/src/com/enplug/photolist/control/listeners/InstagramListener.java" line="68" class="com.enplug.photolist.control.listeners.InstagramListener" package="com.enplug.photolist.control.listeners">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/Main/src/com/enplug/photolist/control/listeners/InstagramListener.java" line="69" class="com.enplug.photolist.control.listeners.InstagramListener" package="com.enplug.photolist.control.listeners">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/Main/src/com/enplug/photolist/control/listeners/InstagramListener.java" line="70" class="com.enplug.photolist.control.listeners.InstagramListener" package="com.enplug.photolist.control.listeners">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/Main/src/com/enplug/photolist/view/ListRenderer.java" line="93" class="com.enplug.photolist.view.ListRenderer" package="com.enplug.photolist.view">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/Main/src/com/enplug/photolist/view/ListRenderer.java" line="94" class="com.enplug.photolist.view.ListRenderer" package="com.enplug.photolist.view">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/Main/src/com/enplug/photolist/view/ListRenderer.java" line="95" class="com.enplug.photolist.view.ListRenderer" package="com.enplug.photolist.view">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/Main/src/com/enplug/photolist/view/ListRenderer.java" line="97" class="com.enplug.photolist.view.ListRenderer" package="com.enplug.photolist.view">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/Main/src/com/enplug/photolist/view/ListRenderer.java" line="103" class="com.enplug.photolist.view.ListRenderer" package="com.enplug.photolist.view">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/Main/src/com/enplug/photolist/view/ListRenderer.java" line="104" class="com.enplug.photolist.view.ListRenderer" package="com.enplug.photolist.view">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/Main/src/com/enplug/photolist/view/ListRenderer.java" line="105" class="com.enplug.photolist.view.ListRenderer" package="com.enplug.photolist.view">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/Main/src/com/enplug/photolist/view/ListRenderer.java" line="107" class="com.enplug.photolist.view.ListRenderer" package="com.enplug.photolist.view">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/Main/src/com/enplug/photolist/view/ListRenderer.java" line="116" class="com.enplug.photolist.view.ListRenderer" package="com.enplug.photolist.view">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/Main/src/com/enplug/photolist/view/ListRenderer.java" line="117" class="com.enplug.photolist.view.ListRenderer" package="com.enplug.photolist.view">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-    </line_breakpoints>
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -366,33 +64,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="PhotoListSetup.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Desktop/src/com/enplug/photolist/TestFramework/PhotoListSetup.java">
+      <file leaf-file-name="ListRow.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Main/src/com/enplug/photolist/view/list/ListRow.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="91" column="1" selection-start="956" selection-end="3044" vertical-scroll-proportion="0.0" vertical-offset="538" max-vertical-offset="1360">
+            <state line="16" column="13" selection-start="486" selection-end="486" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="1836">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PhotoListScreen.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Main/src/com/enplug/photolist/view/PhotoListScreen.java">
+      <file leaf-file-name="ListContentRenderer.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Main/src/com/enplug/photolist/view/list/ListContentRenderer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="52" column="0" selection-start="1636" selection-end="1636" vertical-scroll-proportion="-1.2419975" vertical-offset="1854" max-vertical-offset="2635">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ListRenderer.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Main/src/com/enplug/photolist/view/ListRenderer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="116" column="0" selection-start="3482" selection-end="3482" vertical-scroll-proportion="0.0" vertical-offset="685" max-vertical-offset="2108">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="54" column="8" selection-start="1501" selection-end="1501" vertical-scroll-proportion="0.7355555" vertical-offset="120" max-vertical-offset="1020">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -400,20 +85,9 @@
       <file leaf-file-name="Layout.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Main/src/com/enplug/photolist/view/layout/Layout.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="32" selection-start="614" selection-end="614" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544">
+            <state line="34" column="32" selection-start="858" selection-end="858" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="714">
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="InstagramListener.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Main/src/com/enplug/photolist/control/listeners/InstagramListener.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="0" selection-start="1482" selection-end="1482" vertical-scroll-proportion="0.0" vertical-offset="291" max-vertical-offset="1853">
-              <folding>
-                <element signature="e#2600#2615#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -422,28 +96,10 @@
       <file leaf-file-name="LayoutFactory.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Main/src/com/enplug/photolist/view/layout/LayoutFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="51" column="67" selection-start="1862" selection-end="1862" vertical-scroll-proportion="0.0" vertical-offset="699" max-vertical-offset="1275">
+            <state line="42" column="37" selection-start="1412" selection-end="1412" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="1445">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ListRowRenderer.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Main/src/com/enplug/photolist/view/list/ListRowRenderer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="4" selection-start="202" selection-end="202" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ListRow.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Main/src/com/enplug/photolist/view/list/ListRow.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="0" selection-start="190" selection-end="190" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -458,37 +114,25 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
+        <option value="$PROJECT_DIR$/Main/src/com/enplug/photolist/model/World.java" />
+        <option value="$PROJECT_DIR$/Main/src/com/enplug/photolist/PhotoList.java" />
         <option value="$PROJECT_DIR$/Desktop/src/com/enplug/photolist/Main.java" />
+        <option value="$PROJECT_DIR$/Main/src/com/enplug/photolist/view/PhotoListScreen.java" />
         <option value="$PROJECT_DIR$/Main/src/com/enplug/photolist/view/ItemRenderer.java" />
+        <option value="$PROJECT_DIR$/Main/src/com/enplug/photolist/view/ListRenderer.java" />
         <option value="$PROJECT_DIR$/Desktop/src/com/enplug/photolist/PhotoListTest.java" />
         <option value="$PROJECT_DIR$/Desktop/src/com/enplug/photolist/PhotoListSetup.java" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/Main/src/com/enplug/photolist/PhotoList.java" />
-        <option value="$PROJECT_DIR$/Main/src/com/enplug/photolist/model/PhotoListState.java" />
-        <option value="$PROJECT_DIR$/Desktop/src/com/enplug/photolist/InstagramItemFactory.java" />
-        <option value="$PROJECT_DIR$/Desktop/src/com/enplug/photolist/SocialProvider.java" />
-        <option value="$PROJECT_DIR$/Desktop/src/com/enplug/photolist/InstagramInputProcessor.java" />
-        <option value="$PROJECT_DIR$/Desktop/src/com/enplug/photolist/TestFramework/SocialProvider.java" />
-        <option value="$PROJECT_DIR$/Desktop/src/com/enplug/photolist/TestFramework/InstagramInputProcessor.java" />
-        <option value="$PROJECT_DIR$/Desktop/src/com/enplug/photolist/TestFramework/PhotoListSetup.java" />
-        <option value="$PROJECT_DIR$/Desktop/src/com/enplug/photolist/TestFramework/InstagramItemFactory.java" />
-        <option value="$PROJECT_DIR$/Main/src/com/enplug/photolist/control/listeners/InstagramListener.java" />
-        <option value="$PROJECT_DIR$/Main/src/com/enplug/photolist/view/list/listRow.java" />
-        <option value="$PROJECT_DIR$/Main/src/com/enplug/photolist/view/list/ListRow.java" />
-        <option value="$PROJECT_DIR$/Main/src/com/enplug/photolist/view/list/ListRowRenderer.java" />
         <option value="$PROJECT_DIR$/Main/src/com/enplug/photolist/view/layout/Layout.java" />
-        <option value="$PROJECT_DIR$/Main/src/com/enplug/photolist/view/PhotoListScreen.java" />
         <option value="$PROJECT_DIR$/Main/src/com/enplug/photolist/view/layout/LayoutFactory.java" />
-        <option value="$PROJECT_DIR$/Main/src/com/enplug/photolist/view/ListRenderer.java" />
-        <option value="$PROJECT_DIR$/Main/src/com/enplug/photolist/model/World.java" />
+        <option value="$PROJECT_DIR$/Main/src/com/enplug/photolist/view/list/ListContentRenderer.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1616" />
-    <option name="height" value="1176" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -516,6 +160,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -668,28 +313,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="photolist" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="listeners" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PhotoList" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="Desktop" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -758,27 +381,8 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PhotoList" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Android" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="photolist_images" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -792,34 +396,45 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../NoshlistApp" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="dynamic.classpath" value="false" />
     <property name="OverrideImplement.combined" value="true" />
     <property name="OverrideImplement.overriding.sorted" value="false" />
+    <property name="FullScreen" value="false" />
+    <property name="restartRequiresConfirmation" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Administrator\Documents\GitHub\PhotoList\Android\assets\photolist_images" />
       <recent name="C:\Users\enplug\Documents\GitHub\PhotoList\Android\assets" />
     </key>
   </component>
   <component name="RunManager" selected="Application.TestFramework">
-    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails" singleton="true">
-      <module name="" />
-      <setting name="vmparams" value="" />
-      <setting name="cmdLine" value="run-app" />
-      <setting name="depsClasspath" value="false" />
-      <setting name="passParentEnv" value="true" />
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <setting name="launchBrowser" value="false" />
-      <method />
-    </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin" singleton="true">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
       <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
       <method />
     </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
@@ -874,96 +489,6 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
-    <configuration default="true" type="JUnit" factoryName="JUnit">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
-      <option name="BCName" value="" />
-      <option name="IOSSimulatorSdkPath" value="" />
-      <option name="adlOptions" value="" />
-      <option name="airProgramParameters" value="" />
-      <option name="appDescriptorForEmulator" value="Android" />
-      <option name="debugTransport" value="USB" />
-      <option name="debuggerSdkRaw" value="BC SDK" />
-      <option name="emulator" value="NexusOne" />
-      <option name="emulatorAdlOptions" value="" />
-      <option name="fastPackaging" value="true" />
-      <option name="fullScreenHeight" value="0" />
-      <option name="fullScreenWidth" value="0" />
-      <option name="launchUrl" value="false" />
-      <option name="launcherParameters">
-        <LauncherParameters>
-          <option name="browserFamily" value="FIREFOX" />
-          <option name="launcherType" value="OSDefault" />
-          <option name="newPlayerInstance" value="false" />
-          <option name="playerPath" value="FlashPlayerDebugger.exe" />
-        </LauncherParameters>
-      </option>
-      <option name="mobileRunTarget" value="Emulator" />
-      <option name="moduleName" value="" />
-      <option name="overriddenMainClass" value="" />
-      <option name="overriddenOutputFileName" value="" />
-      <option name="overrideMainClass" value="false" />
-      <option name="runTrusted" value="true" />
-      <option name="screenDpi" value="0" />
-      <option name="screenHeight" value="0" />
-      <option name="screenWidth" value="0" />
-      <option name="url" value="http://" />
-      <option name="usbDebugPort" value="7936" />
-      <method />
-    </configuration>
-    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
-      <module name="" />
-      <option name="TESTING_TYPE" value="0" />
-      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="USE_COMMAND_LINE" value="true" />
-      <option name="COMMAND_LINE" value="" />
-      <option name="WIPE_USER_DATA" value="false" />
-      <option name="DISABLE_BOOT_ANIMATION" value="false" />
-      <option name="NETWORK_SPEED" value="full" />
-      <option name="NETWORK_LATENCY" value="none" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
-      <method />
-    </configuration>
-    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" output_log_level="null" package_name="" scope="Class">
-      <option name="BCName" value="" />
-      <option name="launcherParameters">
-        <LauncherParameters>
-          <option name="browserFamily" value="FIREFOX" />
-          <option name="launcherType" value="OSDefault" />
-          <option name="newPlayerInstance" value="false" />
-          <option name="playerPath" value="FlashPlayerDebugger.exe" />
-        </LauncherParameters>
-      </option>
-      <option name="moduleName" value="" />
-      <option name="trusted" value="true" />
-      <method />
-    </configuration>
     <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="myFilePath" />
@@ -996,6 +521,27 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
       <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
       <method />
     </configuration>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
@@ -1076,13 +622,7 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="Desktop" />
       <envs />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="" />
-        <option name="TRANSPORT" value="0" />
-        <option name="LOCAL" value="true" />
-      </RunnerSettings>
       <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Debug" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
@@ -1104,19 +644,18 @@
       <updated>1421363927691</updated>
       <workItem from="1421363930700" duration="3943000" />
       <workItem from="1421788934274" duration="41417000" />
-      <workItem from="1422041991746" duration="17098000" />
-      <workItem from="1422296792431" duration="13709000" />
+      <workItem from="1422129374043" duration="595000" />
+      <workItem from="1422339090703" duration="1517000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76167000" />
+    <option name="totallyTimeSpent" value="47472000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="1176" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="72" y="85" width="1141" height="897" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
@@ -1124,10 +663,10 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22848949" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21714923" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21128108" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
@@ -1138,8 +677,9 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24390244" sideWeight="0.8986637" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.42447418" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15495208" sideWeight="0.8986637" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.387689" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="92" y="92" width="1736" height="856" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20704375" sideWeight="0.76057905" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -1171,78 +711,28 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Desktop/src/com/enplug/photolist/TestFramework/PhotoListSetup.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="33" selection-start="1554" selection-end="1554" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2465">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Main/src/com/enplug/photolist/PhotoList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="94" column="0" selection-start="2393" selection-end="2393" vertical-scroll-proportion="0.0" vertical-offset="1598" max-vertical-offset="1700">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Desktop/src/com/enplug/photolist/TestFramework/SocialProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="16" selection-start="1424" selection-end="1424" vertical-scroll-proportion="0.0" vertical-offset="799" max-vertical-offset="1122">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Desktop/src/com/enplug/photolist/TestFramework/InstagramInputProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="13" selection-start="935" selection-end="935" vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="1938">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Desktop/src/com/enplug/photolist/TestFramework/InstagramItemFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="0" selection-start="431" selection-end="431" vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="561">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Main/src/com/enplug/photolist/control/listeners/InstagramListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="86" column="29" selection-start="2709" selection-end="2709" vertical-scroll-proportion="0.0" vertical-offset="1122" max-vertical-offset="1921">
-          <folding>
-            <element signature="e#2600#2615#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Desktop/src/com/enplug/photolist/TestFramework/PhotoListSetup.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="33" selection-start="1501" selection-end="1501" vertical-scroll-proportion="0.0" vertical-offset="697" max-vertical-offset="2448">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Desktop/src/com/enplug/photolist/TestFramework/PhotoListTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="0" selection-start="731" selection-end="731" vertical-scroll-proportion="0.0" vertical-offset="442" max-vertical-offset="612">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Main/src/com/enplug/photolist/PhotoList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="44" column="18" selection-start="694" selection-end="694" vertical-scroll-proportion="0.0" vertical-offset="748" max-vertical-offset="884">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="jar://$PROJECT_DIR$/Main/libs/Sdk.jar!/com/enplug/sdk/hosting/HostedGame.class">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="22" selection-start="174" selection-end="174" vertical-scroll-proportion="0.11053316" vertical-offset="0" max-vertical-offset="799" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Main/src/com/enplug/photolist/model/World.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="12" selection-start="769" selection-end="769" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="714">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#545#546#0" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Desktop/src/com/enplug/photolist/Main.java">
@@ -1261,158 +751,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="39" selection-end="39" vertical-scroll-proportion="0.06834171" vertical-offset="0" max-vertical-offset="995" />
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/Main/libs/Sdk.jar!/com/enplug/sdk/model/social/SocialItem.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="30" selection-start="361" selection-end="361" vertical-scroll-proportion="-0.1879397" vertical-offset="306" max-vertical-offset="1870" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Main/src/com/enplug/photolist/model/PhotoListState.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="213" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="799">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Main/src/com/enplug/photolist/PhotoList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="94" column="0" selection-start="2393" selection-end="2393" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="1700">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Android/assets/photolist_images/clouds.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Android/assets/photolist_images/salad.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Android/assets/photolist_images/coffee.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.7.0_45/src.zip!/com/sun/jmx/remote/internal/ArrayQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="11" selection-start="378" selection-end="378" vertical-scroll-proportion="0.11666667" vertical-offset="0" max-vertical-offset="1428">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/Main/libs/Sdk.jar!/com/enplug/sdk/model/social/instagram/InstagramUser.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="13" selection-start="180" selection-end="180" vertical-scroll-proportion="0.09988249" vertical-offset="0" max-vertical-offset="851">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/Main/libs/Sdk.jar!/com/enplug/sdk/model/social/instagram/InstagramImages.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="13" selection-start="180" selection-end="180" vertical-scroll-proportion="0.09988249" vertical-offset="0" max-vertical-offset="851">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Desktop/src/com/enplug/photolist/TestFramework/PhotoListSetup.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="91" column="1" selection-start="956" selection-end="3044" vertical-scroll-proportion="0.0" vertical-offset="538" max-vertical-offset="1360">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Desktop/src/com/enplug/photolist/TestFramework/InstagramInputProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="39" selection-start="815" selection-end="815" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="1870">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Desktop/src/com/enplug/photolist/TestFramework/SocialProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="0" selection-start="1692" selection-end="1692" vertical-scroll-proportion="1.5972222" vertical-offset="100" max-vertical-offset="1122">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Desktop/src/com/enplug/photolist/TestFramework/PhotoListTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="0" selection-start="745" selection-end="745" vertical-scroll-proportion="0.7378472" vertical-offset="0" max-vertical-offset="595">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Main/src/com/enplug/photolist/view/list/ListRow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="190" selection-end="190" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Main/src/com/enplug/photolist/view/list/ListRowRenderer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="4" selection-start="202" selection-end="202" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Main/src/com/enplug/photolist/view/layout/Layout.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="32" selection-start="614" selection-end="614" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Desktop/src/com/enplug/photolist/TestFramework/InstagramItemFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="0" selection-start="1991" selection-end="1991" vertical-scroll-proportion="0.0" vertical-offset="413" max-vertical-offset="3315">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Main/src/com/enplug/photolist/view/layout/LayoutFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="67" selection-start="1862" selection-end="1862" vertical-scroll-proportion="0.0" vertical-offset="699" max-vertical-offset="1275">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Main/src/com/enplug/photolist/control/listeners/InstagramListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="0" selection-start="1482" selection-end="1482" vertical-scroll-proportion="0.0" vertical-offset="291" max-vertical-offset="1853">
-          <folding>
-            <element signature="e#2600#2615#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Main/src/com/enplug/photolist/view/ListRenderer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="116" column="0" selection-start="3482" selection-end="3482" vertical-scroll-proportion="0.0" vertical-offset="685" max-vertical-offset="2108">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Main/src/com/enplug/photolist/model/World.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="60" selection-start="585" selection-end="585" vertical-scroll-proportion="0.46973684" vertical-offset="0" max-vertical-offset="760">
+        <state line="45" column="0" selection-start="1141" selection-end="1141" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="918">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1421,10 +762,58 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Main/src/com/enplug/photolist/view/PhotoListScreen.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="0" selection-start="1636" selection-end="1636" vertical-scroll-proportion="-1.2419975" vertical-offset="1854" max-vertical-offset="2635">
+        <state line="136" column="42" selection-start="3384" selection-end="3384" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2635">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Main/src/com/enplug/photolist/PhotoList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="0" selection-start="835" selection-end="835" vertical-scroll-proportion="1.5454545" vertical-offset="0" max-vertical-offset="1224">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Desktop/src/com/enplug/photolist/TestFramework/PhotoListTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="13" selection-start="291" selection-end="291" vertical-scroll-proportion="0.18299446" vertical-offset="54" max-vertical-offset="595">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Main/src/com/enplug/photolist/view/list/ListRow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="13" selection-start="486" selection-end="486" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="1836">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Main/src/com/enplug/photolist/view/layout/Layout.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="32" selection-start="858" selection-end="858" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="714">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Main/src/com/enplug/photolist/view/layout/LayoutFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="37" selection-start="1412" selection-end="1412" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="1445">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Main/src/com/enplug/photolist/view/list/ListContentRenderer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="54" column="8" selection-start="1501" selection-end="1501" vertical-scroll-proportion="0.7355555" vertical-offset="120" max-vertical-offset="1020">
+          <folding />
         </state>
       </provider>
     </entry>
