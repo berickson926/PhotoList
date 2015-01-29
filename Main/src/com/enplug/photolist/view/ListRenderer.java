@@ -1,15 +1,12 @@
 package com.enplug.photolist.view;
 
-import com.badlogic.gdx.assets.loaders.FileHandleResolver;
-import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.enplug.common.logging.ILog;
 import com.enplug.photolist.model.World;
 import com.enplug.photolist.view.layout.Layout;
+import com.enplug.photolist.view.list.ListContentRenderer;
 import com.enplug.sdk.interfaces.IFontGenerator;
-import com.enplug.sdk.view.list.DefaultContentRenderer;
-import com.enplug.sdk.view.list.ItemStyle;
-import com.enplug.sdk.view.list.ListBox;
+import com.enplug.sdk.view.list.*;
 
 /**
  * Created by berickson926 on 1/20/15
@@ -22,18 +19,18 @@ public class ListRenderer
 
     private final World _world;
     private final IFontGenerator _fontGenerator;
-    private final FileHandleResolver _assetResolver;
     private final ILog _log;
 
     private Layout _layout;
 
     private ListBox _list;
 
-    public ListRenderer(World world, IFontGenerator fontGenerator, FileHandleResolver assetResolver, ILog log, Layout layout)
+    private ListContentRenderer _contentRenderer;
+
+    public ListRenderer(World world, IFontGenerator fontGenerator, ILog log, Layout layout)
     {
         _world = world;
         _fontGenerator = fontGenerator;
-        _assetResolver = assetResolver;
         _log = log.getSubLog(TAG);
         _layout = layout;
 
@@ -58,24 +55,39 @@ public class ListRenderer
     public void dispose()
     {
         _log.debug("Disposing listbox resources.");
-        if(_world.getPosts() != null)
-        {
-            _world.getPosts().removeObserver(_list);
-        }
-
         if(_list != null)
         {
             _list.dispose();
             _list = null;
         }
+
+        if(_contentRenderer != null)
+        {
+            _contentRenderer.dispose();
+            _contentRenderer = null;
+        }
+    }
+
+    public void refresh()
+    {
+        _list.onCollectionChanged();
+        _list.setSelectedItem(_world.getHighlightedPost());
     }
 
     private void initializeListBox()
     {
-        _list = new ListBox(new DefaultContentRenderer(_fontGenerator, _assetResolver));
+        initializeContentRenderer();
+
+        _list = new ListBox(_contentRenderer);
         initializeListSettings();
 
         _list.setItems(_world.getPosts());
+    }
+
+    private void initializeContentRenderer()
+    {
+        _contentRenderer = new ListContentRenderer(_fontGenerator, _layout);
+        _contentRenderer.setContentAlignment(ContentItemAlignment.CENTERED_VERTICAL);
     }
 
     private void initializeListSettings()

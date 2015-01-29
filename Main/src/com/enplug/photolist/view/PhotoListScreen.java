@@ -84,12 +84,12 @@ public class PhotoListScreen implements Screen
     @Override
     public void show()
     {
-        _layout = LayoutFactory.getLayout(Gdx.graphics.getWidth(), Gdx.graphics.getHeight());
+        _layout = LayoutFactory.getLayout((float) Gdx.graphics.getWidth(), (float) Gdx.graphics.getHeight());
 
         _batch = new SpriteBatch();
 
-        _listRenderer = new ListRenderer(_world, _fontGenerator, _assetResolver, _log, _layout);
-        _itemRenderer = new ItemRenderer(_world, _fontGenerator, _assetResolver, _log);
+        _listRenderer = new ListRenderer(_world, _fontGenerator, _log, _layout);
+        _itemRenderer = new ItemRenderer(_world, _fontGenerator, _assetResolver, _layout);
     }
 
     @Override
@@ -131,6 +131,19 @@ public class PhotoListScreen implements Screen
         {
             _itemRenderer.dispose();
             _itemRenderer = null;
+        }
+    }
+
+    public void refresh()
+    {
+        if(_itemRenderer != null)
+        {
+            _itemRenderer.refresh();
+        }
+
+        if(_listRenderer != null)
+        {
+            _listRenderer.refresh();
         }
     }
 
