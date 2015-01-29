@@ -2,6 +2,7 @@ package com.enplug.photolist;
 
 import com.badlogic.gdx.Screen;
 import com.enplug.common.logging.ILog;
+import com.enplug.photolist.control.PostRotator;
 import com.enplug.photolist.control.listeners.InstagramListener;
 import com.enplug.photolist.model.World;
 import com.enplug.photolist.view.PhotoListScreen;
@@ -27,6 +28,7 @@ public class PhotoList extends HostedGame
     private Screen _photoListScreen;
 
     private List<ISocialItemListener> _listeners;
+    private PostRotator _postRotator;
 
     @Override
     public void initialize(IServiceProvider serviceProvider, List<SocialFeedDefinition> feeds, boolean isLandscape, String language)
@@ -39,18 +41,20 @@ public class PhotoList extends HostedGame
         _photoListScreen = new PhotoListScreen(_serviceProvider, _log, _world);
 
         initializeSocialItemListeners(feeds);
+
+        _postRotator = new PostRotator(_world, (PhotoListScreen) _photoListScreen, _log);
     }
 
     @Override
     public void resume()
     {
-
+        _postRotator.resume();
     }
 
     @Override
     public void pause()
     {
-
+        _postRotator.pause();
     }
 
     @Override
@@ -67,6 +71,13 @@ public class PhotoList extends HostedGame
 
     @Override
     public void dispose()
+    {
+        _postRotator.dispose();
+
+        disposeListeners();
+    }
+
+    private void disposeListeners()
     {
         if(_listeners != null)
         {

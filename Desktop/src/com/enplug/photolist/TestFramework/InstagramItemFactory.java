@@ -47,18 +47,14 @@ public class InstagramItemFactory
 
         InstagramUser newUser = new InstagramUser();
         newUser.setUserName(generateUsername());
-        newUser.setProfilePicture(generateAvatarFilepath());
+        newItem.setUserImageLocalPath(generateAvatarFilepath());
 
         InstagramCaption newCaption = new InstagramCaption();
         newCaption.setText(generatePostMessage());
         newItem.setCaption(newCaption);
         newItem.setUser(newUser);
 
-        InstagramImage mainImage = new InstagramImage();
-        mainImage.setUrl(generateImageFilepath());
-        InstagramImages images = new InstagramImages();
-        images.setStandardResolution(mainImage);
-        newItem.setImages(images);
+        newItem.setImageLocalPath(generateImageFilepath());
 
         Gdx.app.log("InstagramItemFactory", newItem.toString());
         _currentItemList.add(newItem);

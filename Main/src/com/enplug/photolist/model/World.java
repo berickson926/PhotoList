@@ -1,6 +1,6 @@
 package com.enplug.photolist.model;
 
-import com.enplug.sdk.model.ObserveableCollection;
+import com.enplug.sdk.model.ObservableCollection;
 import com.enplug.sdk.model.social.instagram.InstagramItem;
 
 /**
@@ -12,14 +12,14 @@ public class World
 {
     private PhotoListState _photoListState;
 
-    private final ObserveableCollection<InstagramItem> _posts;
+    private final ObservableCollection<InstagramItem> _posts;
     private int _highlightedPost;
 
     public World()
     {
         _photoListState = PhotoListState.NotReady;
         _highlightedPost = -1;
-        _posts = new ObserveableCollection<InstagramItem>();
+        _posts = new ObservableCollection<InstagramItem>();
     }
 
     public void setPhotoListState(PhotoListState state)
@@ -42,7 +42,7 @@ public class World
         return _highlightedPost;
     }
 
-    public ObserveableCollection<InstagramItem> getPosts()
+    public ObservableCollection<InstagramItem> getPosts()
     {
         return _posts;
     }

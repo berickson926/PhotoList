@@ -6,13 +6,12 @@ import com.enplug.photolist.model.World;
 import com.enplug.sdk.hosting.AppState;
 import com.enplug.sdk.interfaces.IAppStatusListener;
 import com.enplug.sdk.interfaces.ISocialItemListener;
-import com.enplug.sdk.model.ObserveableCollection;
+import com.enplug.sdk.model.ObservableCollection;
 import com.enplug.sdk.model.social.SocialItem;
 import com.enplug.sdk.model.social.instagram.InstagramItem;
 
 import java.util.ArrayList;
 import java.util.Collection;
-import java.util.Iterator;
 import java.util.List;
 
 /**
@@ -43,7 +42,7 @@ public class InstagramListener implements ISocialItemListener
     {
         _log.debug("Received new social interaction");
 
-        ObserveableCollection<InstagramItem> instagramPosts = _world.getPosts();
+        ObservableCollection<InstagramItem> instagramPosts = _world.getPosts();
 
         instagramPosts.add((InstagramItem) socialItem);
 
@@ -55,7 +54,7 @@ public class InstagramListener implements ISocialItemListener
     {
         _log.debug("Received social interaction to update.");
 
-        ObserveableCollection<InstagramItem> instagramPosts = _world.getPosts();
+        ObservableCollection<InstagramItem> instagramPosts = _world.getPosts();
 
 
         ////////////////////////////////////////////////////////////////////////////////
@@ -75,7 +74,7 @@ public class InstagramListener implements ISocialItemListener
     {
         _log.debug("Received social interaction to delete.");
 
-        ObserveableCollection<InstagramItem> instagramPosts = _world.getPosts();
+        ObservableCollection<InstagramItem> instagramPosts = _world.getPosts();
         Collection<InstagramItem> items = instagramPosts.getItems();
         Collection<InstagramItem> itemsToDelete = new ArrayList<InstagramItem>();
 
