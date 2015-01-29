@@ -26,17 +26,27 @@ public final class LayoutFactory
 
         layout._screenSize = new Vector2(screenWidth, screenHeight);
 
+        // Main post related config
+        //
+        layout._itemMessageSize = (int) (50 * _scale.x);
+        layout._itemUserNameSize = (int) (60 * _scale.x);
+
+        // List related config
+        //
         layout._listBackgroundColor = new Color(0.4f, 0.4f, 0.4f, 1.0f);
-        layout._listAlternateColor = new Color(0.7f, 0.7f, 0.7f, 1.0f);
+        layout._listAlternateColor = new Color(0.2f, 0.2f, 0.5f, 1.0f);
         layout._listHighlightColor = new Color(0.0f, 0.5f, 0.5f, 1.0f);
 
         layout._listRowHeight = 148.0f * _scale.y;
 
-        layout._rowAvatarPosX = 10.0f;
-        layout._rowAvatarWidth = 30.0f;
+        layout._rowAvatarPosX = 25.0f * _scale.x;
+        layout._rowAvatarSize = 90.0f * _scale.x;
 
-        layout._rowMessagePosX = 50.0f;
+        layout._rowMessagePosX = layout._rowAvatarSize + layout._rowAvatarPosX + (50.0f * _scale.x);
         layout._rowMessageWidth = 300.0f;
+
+        layout._listMessageLength = 40;
+        layout._listMessageSize = (int) (40 * _scale.x);
 
         return layout;
     }
@@ -51,11 +61,16 @@ public final class LayoutFactory
     {
         Layout layout = new Layout();
 
-        layout._itemImagePos = new Vector2(540.0f * _scale.x, 1700.0f * _scale.y);
-        layout._itemAvatarPos = new Vector2(300.0f * _scale.x, 1400.0f * _scale.y);
-        layout._itemMessagePos = new Vector2(450.0f * _scale.x, 1400.0f * _scale.y);
+        float scale = Math.max(_scale.x, _scale.y);
 
-        layout._listDimensions = new Rectangle(20.0f * _scale.x, 20.0f * _scale.y, 1200.0f * _scale.x, 1040.0f * _scale.y);
+        layout._itemImageDim = new Rectangle(1450.0f * _scale.x, 450.0f * _scale.y, 400.0f * scale, 400.0f * scale);
+        layout._itemAvatarDim = new Rectangle(1550.0f * _scale.x, 375.0f * _scale.y, 150.0f * scale, 150.0f * scale);
+        layout._iconDim = new Rectangle(1350.0f * _scale.x, 375.0f * _scale.y, 150.0f * scale, 150.0f * scale);
+
+        layout._itemMessageDim = new Rectangle(1050.0f * _scale.x, 300.0f * _scale.y, 850.0f * _scale.x, /*unused*/ 0.0f);
+        layout._itemUserNamePos = new Vector2(1450.0f * _scale.x, 375.0f * _scale.y);
+
+        layout._listDimensions = new Rectangle(20.0f * _scale.x, 20.0f * _scale.y, 1000.0f * _scale.x, 1040.0f * _scale.y);
 
         return layout;
     }
@@ -64,9 +79,14 @@ public final class LayoutFactory
     {
         Layout layout = new Layout();
 
-        layout._itemImagePos = new Vector2(1700.0f * _scale.x, 540.0f * _scale.y);
-        layout._itemAvatarPos = new Vector2(1400.0f * _scale.x, 300.0f * _scale.y);
-        layout._itemMessagePos = new Vector2(1400.0f * _scale.x, 450.0f * _scale.y);
+        float scale = Math.max(_scale.x, _scale.y);
+
+        layout._itemImageDim = new Rectangle(220.0f * _scale.x, 1300.0f * _scale.y, 400.0f * scale, 400.0f * scale);
+        layout._itemAvatarDim = new Rectangle(850.0f * _scale.x, 1650.0f * _scale.y, 150.0f * scale, 150.0f * scale);
+        layout._iconDim = new Rectangle(650.0f * _scale.x,1650.0f * _scale.y, 150.0f * scale, 150.0f * scale);
+
+        layout._itemMessageDim = new Rectangle(20.0f * _scale.x, 1475.0f * _scale.y, 1020.0f * _scale.x, /*unused*/ 0.0f);
+        layout._itemUserNamePos = new Vector2(750.0f * _scale.x, 1675.0f * _scale.y);
 
         layout._listDimensions = new Rectangle(20.0f * _scale.x, 20.0f * _scale.y, 1040.0f * _scale.x, 1200.0f * _scale.y);
 

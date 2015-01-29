@@ -55,7 +55,7 @@ public class ListRow implements IDrawable
         _dimensions.x = position.x;
         _dimensions.y = position.y;
 
-        setContentItemPosition(_rowItems.get(AVATAR), _layout._rowAvatarPosX, _layout._rowAvatarWidth);
+        setContentItemPosition(_rowItems.get(AVATAR), _layout._rowAvatarPosX, _layout._rowAvatarSize);
         setContentItemPosition(_rowItems.get(MESSAGE), _layout._rowMessagePosX, _layout._rowMessageWidth);
     }
 
