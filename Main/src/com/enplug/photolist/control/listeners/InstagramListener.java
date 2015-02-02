@@ -55,12 +55,10 @@ public class InstagramListener implements ISocialItemListener
         _log.debug("Received social interaction to update.");
 
         ObservableCollection<InstagramItem> instagramPosts = _world.getPosts();
+        List<SocialItem> items = new ArrayList<SocialItem>();
+        items.addAll(instagramPosts.getItems());
 
-
-        ////////////////////////////////////////////////////////////////////////////////
-        List<InstagramItem> items = (List<InstagramItem>) instagramPosts.getItems();
-
-        if(items.contains((InstagramItem)socialItem))
+        if(items.contains(socialItem))
         {
             _log.debug("Item match found in list, updating.");
 
