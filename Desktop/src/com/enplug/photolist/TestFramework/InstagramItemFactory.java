@@ -34,6 +34,7 @@ public class InstagramItemFactory
 
         _currentItemList = new PriorityQueue<InstagramItem>();
     }
+
     public InstagramItem createNewItem()
     {
         InstagramItem newItem = new InstagramItem();
