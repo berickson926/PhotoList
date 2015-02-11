@@ -57,6 +57,13 @@ public class InstagramItemFactory
 
         newItem.setImageLocalPath(generateImageFilepath());
 
+        // leave remote url info empty
+        //
+        InstagramImage emptyImage = new InstagramImage();
+        InstagramImages emptyImages = new InstagramImages();
+        emptyImages.setStandardResolution(emptyImage);
+        newItem.setImages(emptyImages);
+
         Gdx.app.log("InstagramItemFactory", newItem.toString());
         _currentItemList.add(newItem);
 
