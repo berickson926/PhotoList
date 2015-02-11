@@ -24,5 +24,6 @@ public class PhotoListTestRun extends TestRun
         InstagramItemFactory factory = new InstagramItemFactory();
 
         addCachedSocialItem(factory.createNewItem());
+        addCachedSocialItem(factory.createNewItem());
     }
 }
