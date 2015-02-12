@@ -1,4 +1,4 @@
-package com.enplug.photolist.TestFramework;
+package com.enplug.photolist.testframework;
 
 import com.enplug.test.TestContext;
 import com.enplug.test.TestRun;

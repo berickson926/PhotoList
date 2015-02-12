@@ -1,12 +1,10 @@
-package com.enplug.photolist.TestFramework;
+package com.enplug.photolist.testframework;
 
 import com.badlogic.gdx.backends.lwjgl.LwjglApplication;
 import com.badlogic.gdx.backends.lwjgl.LwjglApplicationConfiguration;
 import com.enplug.photolist.PhotoList;
 import com.enplug.test.DesktopTestContext;
 import com.enplug.test.TestRun;
-import com.enplug.test.app.SampleApp2;
-import com.enplug.test.example.ExampleRun;
 
 /**
  * Created by berickson926 on 1/22/15
