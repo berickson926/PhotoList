@@ -20,8 +20,6 @@ public class InstagramItemFactory
     private static final int POST_DELAY = 50;
     private static final String IMAGE_DIR = "/photolist_images/";
 
-    private final Queue<InstagramItem> _currentItemList;
-
     private final String _homeBasedPath;
 
     private int _itemId;
@@ -31,8 +29,6 @@ public class InstagramItemFactory
         _itemId = 0;
         _homeBasedPath = initializeFilepath();
         Gdx.app.log("Home class path: ", _homeBasedPath);
-
-        _currentItemList = new PriorityQueue<InstagramItem>();
     }
 
     public InstagramItem createNewItem()
@@ -65,25 +61,8 @@ public class InstagramItemFactory
         newItem.setImages(emptyImages);
 
         Gdx.app.log("InstagramItemFactory", newItem.toString());
-        _currentItemList.add(newItem);
 
         return newItem;
-    }
-
-    public InstagramItem createUpdateItem()
-    {
-        InstagramItem updateItem = _currentItemList.isEmpty() ? createNewItem() : _currentItemList.peek();
-
-        InstagramCaption updatedCaption = new InstagramCaption();
-        updatedCaption.setText("Updated message text");
-        updateItem.setCaption(updatedCaption);
-
-        return updateItem;
-    }
-
-    public InstagramItem createDeleteItem()
-    {
-        return _currentItemList.isEmpty() ? createNewItem() : _currentItemList.remove();
     }
 
     private String initializeFilepath()
