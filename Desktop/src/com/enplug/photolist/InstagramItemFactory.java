@@ -1,4 +1,4 @@
-package com.enplug.photolist.testframework;
+package com.enplug.photolist;
 
 import com.badlogic.gdx.Gdx;
 import com.enplug.sdk.model.social.instagram.*;
@@ -60,7 +60,7 @@ public class InstagramItemFactory
         emptyImages.setStandardResolution(emptyImage);
         newItem.setImages(emptyImages);
 
-        Gdx.app.log("InstagramItemFactory", newItem.toString());
+        Gdx.app.log("AndroidIGItemFactory", newItem.toString());
 
         return newItem;
     }

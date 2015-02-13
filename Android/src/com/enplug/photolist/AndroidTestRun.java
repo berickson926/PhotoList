@@ -1,4 +1,4 @@
-package com.enplug.photolist.testframework;
+package com.enplug.photolist;
 
 import com.enplug.test.TestContext;
 import com.enplug.test.TestRun;
@@ -8,9 +8,9 @@ import com.enplug.test.TestRun;
  * Copyright (c) 2014 Enplug, Inc. All rights reserved.
  *
  */
-public class PhotoListTestRun extends TestRun
+public class AndroidTestRun extends TestRun
 {
-    public PhotoListTestRun(Class gameClass, TestContext module)
+    public AndroidTestRun(Class gameClass, TestContext module)
     {
         super(gameClass, module);
     }
@@ -21,11 +21,9 @@ public class PhotoListTestRun extends TestRun
         setLanguage("English");
         setRequestShow(true);
 
-        InstagramItemFactory factory = new InstagramItemFactory();
+        AndroidIGItemFactory factory = new AndroidIGItemFactory();
 
-        for(int i = 0; i < 5; i++)
-        {
-            addCachedSocialItem(factory.createNewItem());
-        }
+        addCachedSocialItem(factory.createNewItem());
+        addCachedSocialItem(factory.createNewItem());
     }
 }

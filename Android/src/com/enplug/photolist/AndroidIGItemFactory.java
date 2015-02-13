@@ -12,7 +12,7 @@ import java.util.Random;
  * Time: 4:40 PM
  * Copyright (c) 2012 Enplug, Inc. All rights reserved.
  */
-public class InstagramItemFactory
+public class AndroidIGItemFactory
 {
     private static final long UNIX_TIMESTAMP_CONV = 1000L;
     private static final int POST_DELAY = 50;
@@ -43,7 +43,7 @@ public class InstagramItemFactory
 
         newItem.getUser().setProfilePicture("http://photos-c.ak.instagram.com/hphotos-ak-xfa1/t51.2885-15/10946228_917728404918170_68127849_n.jpg");
 
-        Gdx.app.log("InstagramItemFactory", newItem.toString());
+        Gdx.app.log("AndroidIGItemFactory", newItem.toString());
 
         return newItem;
     }
