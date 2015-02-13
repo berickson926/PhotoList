@@ -1,4 +1,4 @@
-package com.enplug.photolist;
+package com.enplug.photolist.testframework;
 
 import com.badlogic.gdx.Gdx;
 import com.enplug.sdk.model.social.instagram.*;
