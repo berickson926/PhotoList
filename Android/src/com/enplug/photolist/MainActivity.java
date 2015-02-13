@@ -3,8 +3,6 @@ package com.enplug.photolist;
 import android.app.ActivityManager;
 import android.os.Bundle;
 
-import android.util.Log;
-import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.backends.android.AndroidApplication;
 import com.badlogic.gdx.backends.android.AndroidApplicationConfiguration;
 import com.enplug.test.AndroidTestContext;
@@ -22,7 +20,7 @@ public class MainActivity extends AndroidApplication
         cfg.useCompass = false;
 
         ActivityManager activityManager = (ActivityManager) getSystemService(ACTIVITY_SERVICE);
-        TestRun test = new PhotoListTestRun(PhotoList.class, new AndroidTestContext(this, getContext(), activityManager));
+        TestRun test = new AndroidTestRun(PhotoList.class, new AndroidTestContext(this, getContext(), activityManager));
         initialize(test.getHost(), cfg);
         test.setUp();
         test.run();
