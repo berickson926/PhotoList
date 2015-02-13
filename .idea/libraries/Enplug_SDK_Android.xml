@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Enplug-SDK-Android">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Android/libs/Enplug-SDK-Android.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/Android/libs/Enplug-SDK-Android.jar!/" />
+    </SOURCES>
+  </library>
+</component>
