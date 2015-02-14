@@ -1,11 +1,11 @@
 <component name="libraryTable">
-  <library name="Enplug-SDK-Desktop">
+  <library name="enplug-sdk-desktop">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/Desktop/libs/Enplug-SDK-Desktop.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Desktop/libs/enplug-sdk-desktop.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
-      <root url="jar://$PROJECT_DIR$/Desktop/libs/Enplug-SDK-Desktop.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Desktop/libs/enplug-sdk-desktop.jar!/" />
     </SOURCES>
   </library>
 </component>

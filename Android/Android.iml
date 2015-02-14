@@ -14,8 +14,8 @@
     <orderEntry type="jdk" jdkName="Android 4.3 Platform" jdkType="Android SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="Main" />
-    <orderEntry type="library" name="TestFramework-Android" level="project" />
-    <orderEntry type="library" name="Enplug-SDK-Android" level="project" />
+    <orderEntry type="library" name="enplug-sdk-android" level="project" />
+    <orderEntry type="library" name="enplug-test-android" level="project" />
   </component>
 </module>
 

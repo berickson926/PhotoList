@@ -9,8 +9,8 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="Android" />
     <orderEntry type="module" module-name="Main" />
-    <orderEntry type="library" name="TestFramework-Desktop" level="project" />
-    <orderEntry type="library" name="Enplug-SDK-Desktop" level="project" />
+    <orderEntry type="library" name="enplug-sdk-desktop" level="project" />
+    <orderEntry type="library" name="enplug-test-desktop" level="project" />
   </component>
 </module>
 
