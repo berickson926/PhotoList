@@ -31,7 +31,7 @@ public class PhotoList extends HostedGame
     public void initialize(IServiceProvider serviceProvider)
     {
         _serviceProvider = serviceProvider;
-        _log = _serviceProvider.getLog().getSubLog(this);
+        _log = _serviceProvider.getLog();
 
         _world = new World();
 
@@ -77,7 +77,7 @@ public class PhotoList extends HostedGame
     {
         for(SocialFeedDefinition feed : feeds)
         {
-            ISocialItemListener listener = new InstagramListener(feed.getId(), _world, _log, _serviceProvider.getAppStatusListener());
+            ISocialItemListener listener = new InstagramListener(_world, _log, _serviceProvider.getAppStatusListener());
             _serviceProvider.getSocialProvider().connect(listener);
         }
     }

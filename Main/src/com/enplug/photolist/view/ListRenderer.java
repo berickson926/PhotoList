@@ -15,8 +15,6 @@ import com.enplug.sdk.view.list.*;
  */
 public class ListRenderer
 {
-    public static final String TAG = "[PhotoList]:ListRenderer";
-
     private final World _world;
     private final IFontGenerator _fontGenerator;
     private final ILog _log;
@@ -31,7 +29,7 @@ public class ListRenderer
     {
         _world = world;
         _fontGenerator = fontGenerator;
-        _log = log.getSubLog(TAG);
+        _log = log.getSubLog(this);
         _layout = layout;
 
         initializeListBox();
