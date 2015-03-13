@@ -16,8 +16,6 @@ import java.util.List;
 
 public class PhotoList extends HostedGame
 {
-    private static final String TAG = "PhotoList";
-
     // Enplug utility services
     //
     private ILog _log;
@@ -27,19 +25,19 @@ public class PhotoList extends HostedGame
 
     private Screen _photoListScreen;
 
-    private List<ISocialItemListener> _listeners;
     private PostRotator _postRotator;
 
     @Override
-    public void initialize(IServiceProvider serviceProvider, List<SocialFeedDefinition> feeds, boolean isLandscape, String language)
+    public void initialize(IServiceProvider serviceProvider)
     {
         _serviceProvider = serviceProvider;
-        _log = _serviceProvider.getLog().getSubLog(TAG);
+        _log = _serviceProvider.getLog();
 
         _world = new World();
 
         _photoListScreen = new PhotoListScreen(_serviceProvider, _log, _world);
 
+        List<SocialFeedDefinition> feeds = _serviceProvider.getSocialProvider().getFeedDefinitions();
         initializeSocialItemListeners(feeds);
 
         _postRotator = new PostRotator(_world, (PhotoListScreen) _photoListScreen, _log);
@@ -73,33 +71,14 @@ public class PhotoList extends HostedGame
     public void dispose()
     {
         _postRotator.dispose();
-
-        disposeListeners();
-    }
-
-    private void disposeListeners()
-    {
-        if(_listeners != null)
-        {
-            for(ISocialItemListener listener : _listeners)
-            {
-                String feedId = ((InstagramListener)listener).getFeedId();
-                _serviceProvider.getSocialProvider().removeListener(feedId, listener);
-            }
-
-            _listeners = null;
-        }
     }
 
     private void initializeSocialItemListeners(Iterable<SocialFeedDefinition> feeds)
     {
-        _listeners = new ArrayList<ISocialItemListener>();
-
         for(SocialFeedDefinition feed : feeds)
         {
-            ISocialItemListener listener = new InstagramListener(feed.getId(), _world, _log, _serviceProvider.getAppStatusListener());
-            _listeners.add(listener);
-            _serviceProvider.getSocialProvider().addListener(feed.getId(), listener);
+            ISocialItemListener listener = new InstagramListener(_world, _log, _serviceProvider.getAppStatusListener());
+            _serviceProvider.getSocialProvider().connect(listener);
         }
     }
 }

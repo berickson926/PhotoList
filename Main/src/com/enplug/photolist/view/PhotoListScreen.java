@@ -22,8 +22,6 @@ import com.enplug.sdk.interfaces.IServiceProvider;
  */
 public class PhotoListScreen implements Screen
 {
-    private static final String TAG = "[PhotoList]:PhotoListScreen";
-
     private final FileHandleResolver _assetResolver;
     private final IFontGenerator _fontGenerator;
     private final ILog _log;
@@ -41,7 +39,7 @@ public class PhotoListScreen implements Screen
     {
         _assetResolver = serviceProvider.getAssetHandleResolver();
         _fontGenerator = serviceProvider.getFontGenerator();
-        _log = log.getSubLog(TAG);
+        _log = log.getSubLog(this);
         _world = world;
     }
 

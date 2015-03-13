@@ -22,18 +22,14 @@ import java.util.List;
  */
 public class InstagramListener implements ISocialItemListener
 {
-    private static final String TAG = "[PhotoList]:InstagramListener";
-
-    private final String _feedId;
     private final World _world;
     private final ILog _log;
     private final IAppStatusListener _appStatusListener;
 
-    public InstagramListener(String feedId, World world, ILog log, IAppStatusListener appStatusListener)
+    public InstagramListener(World world, ILog log, IAppStatusListener appStatusListener)
     {
-        _feedId = feedId;
         _world = world;
-        _log = log.getSubLog(TAG);
+        _log = log.getSubLog(this);
         _appStatusListener = appStatusListener;
     }
 
@@ -91,11 +87,6 @@ public class InstagramListener implements ISocialItemListener
             instagramPosts.remove(deleteItem);
             readyCheck();
         }
-    }
-
-    public String getFeedId()
-    {
-        return _feedId;
     }
 
     private void readyCheck()
