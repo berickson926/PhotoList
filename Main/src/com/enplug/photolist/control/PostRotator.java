@@ -17,7 +17,6 @@ import java.util.concurrent.TimeUnit;
  */
 public class PostRotator
 {
-    public static final String TAG = "[PhotoList]:PostRotator";
     private static final long ROTATION_FREQ = 10L;
 
     private final World _world;
@@ -31,7 +30,7 @@ public class PostRotator
     {
         _world = world;
         _screen = screen;
-        _log = log.getSubLog(TAG);
+        _log = log.getSubLog(this);
 
         _postRotateScheduler = Executors.newScheduledThreadPool(1);
     }
