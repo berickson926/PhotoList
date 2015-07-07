@@ -7,16 +7,14 @@ import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.*;
 import com.badlogic.gdx.math.Rectangle;
 import com.badlogic.gdx.math.Vector2;
-import com.enplug.common.logging.ILog;
+import com.badlogic.gdx.utils.Align;
 import com.enplug.photolist.model.World;
 import com.enplug.photolist.view.layout.Layout;
 import com.enplug.sdk.interfaces.FontType;
 import com.enplug.sdk.interfaces.IFontGenerator;
-import com.enplug.sdk.model.ObservableCollection;
 import com.enplug.sdk.model.social.instagram.InstagramItem;
 
 import java.util.Collection;
-import java.util.Observable;
 
 /**
  * Created by berickson926 on 1/20/15
@@ -44,6 +42,8 @@ public class ItemRenderer
     private Sprite _mainImage;
 
     private InstagramItem _currentItem;
+
+    private static GlyphLayout _glyphLayout;
 
     public ItemRenderer(World world, IFontGenerator fontGenerator, FileHandleResolver assetResolver, Layout layout)
     {
@@ -253,7 +253,7 @@ public class ItemRenderer
         Rectangle messageDim = _layout._itemMessageDim;
 
         _message = new BitmapFontCache(_messageFont, true);
-        _message.setWrappedText(message, messageDim.x, messageDim.y, messageDim.width);
+        _message.setText(message, messageDim.x, messageDim.y, messageDim.width, Align.left, true);
     }
 
     private Vector2 centerImage(Rectangle dim)
@@ -268,10 +268,10 @@ public class ItemRenderer
 
     private static Vector2 getCenteredText(String text, BitmapFont font, Vector2 pos)
     {
-        BitmapFont.TextBounds bounds = font.getBounds(text);
+        _glyphLayout.setText(font, text);
 
-        float centeredY = pos.y + (bounds.height / 2.0f);
-        float centeredX = pos.x - (bounds.width / 2.0f);
+        float centeredY = pos.y + (_glyphLayout.height / 2.0f);
+        float centeredX = pos.x - (_glyphLayout.width / 2.0f);
 
         return new Vector2(centeredX, centeredY);
     }
