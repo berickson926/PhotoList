@@ -43,8 +43,6 @@ public class ItemRenderer
 
     private InstagramItem _currentItem;
 
-    private static GlyphLayout _glyphLayout;
-
     public ItemRenderer(World world, IFontGenerator fontGenerator, FileHandleResolver assetResolver, Layout layout)
     {
         _world = world;
@@ -268,10 +266,11 @@ public class ItemRenderer
 
     private static Vector2 getCenteredText(String text, BitmapFont font, Vector2 pos)
     {
-        _glyphLayout.setText(font, text);
+        GlyphLayout layout = new GlyphLayout();
+        layout.setText(font, text);
 
-        float centeredY = pos.y + (_glyphLayout.height / 2.0f);
-        float centeredX = pos.x - (_glyphLayout.width / 2.0f);
+        float centeredY = pos.y + (layout.height / 2.0f);
+        float centeredX = pos.x - (layout.width / 2.0f);
 
         return new Vector2(centeredX, centeredY);
     }

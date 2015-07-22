@@ -71,7 +71,7 @@ public class ListContentRenderer implements IContentRenderer<InstagramItem>
     private ContentItem renderAvatar(String avatarPath)
     {
         FileHandle avatarFile = Gdx.files.external(avatarPath);
-        Texture avatarTex = new Texture(avatarFile, true);
+        Texture avatarTex = new Texture(avatarFile, /*use mipmaps*/true);
         avatarTex.setFilter(Texture.TextureFilter.MipMapLinearLinear, Texture.TextureFilter.MipMapLinearLinear);
 
         Sprite avatarSprite = new Sprite(avatarTex);
